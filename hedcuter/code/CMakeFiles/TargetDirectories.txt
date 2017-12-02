@@ -1,0 +1,1 @@
+/home/sri/Triangulate/uncomp/hedcut-master/hedcut-master/hedcuter/code/CMakeFiles/hedcuter.dir
