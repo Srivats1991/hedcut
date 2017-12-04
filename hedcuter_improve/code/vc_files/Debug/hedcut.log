@@ -1,0 +1,21 @@
+﻿Build started 12/3/2017 9:04:46 AM.
+     1>Project "D:\share\down\hedcut-master\hedcuter - improve\code\vc_files\hedcut.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\opencv-2.4.9\build\include" /I"D:\share\down\hedcut-master\hedcuter - improve\code\vc_files\inc" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp ..\wcvt.cpp
+         wcvt.cpp
+         main.cpp
+     1>d:\share\down\hedcut-master\hedcuter - improve\code\simple_svg_1.0.0.hpp(468): warning C4520: 'svg::Polygon' : multiple default constructors specified
+     1>d:\share\down\hedcut-master\hedcuter - improve\code\simple_svg_1.0.0.hpp(505): warning C4520: 'svg::Polyline' : multiple default constructors specified
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\share\down\hedcut-master\hedcuter - improve\code\vc_files\Debug\hedcut.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\opencv-2.4.9\build\x86\vc11\lib" /LIBPATH:"D:\share\down\hedcut-master\hedcuter - improve\code\vc_files\lib" opencv_highgui249d.lib opencv_core249d.lib opencv_imgproc249d.lib opencv_flann249d.lib opencv_contrib249d.lib opencv_features2d249d.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\share\down\hedcut-master\hedcuter - improve\code\vc_files\Debug\hedcut.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\share\down\hedcut-master\hedcuter - improve\code\vc_files\Debug\hedcut.lib" /MACHINE:X86 Debug\hedcut.obj
+         Debug\main.obj
+         Debug\wcvt.obj
+         Debug\wcvt_gpu.obj
+         hedcut.vcxproj -> D:\share\down\hedcut-master\hedcuter - improve\code\vc_files\Debug\hedcut.exe
+     1>Done Building Project "D:\share\down\hedcut-master\hedcuter - improve\code\vc_files\hedcut.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.13
